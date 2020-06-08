@@ -1,15 +1,15 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://notebook.wahudamon.com',
+    siteUrl: 'https://note.kureview.web.id',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
     logo: 'https://avatars3.githubusercontent.com/u/42200282?s=460&u=cbdde567fe7c7537dbed213ce64add02bed616fd&v=4',
-    logoLink: 'https://notebook.wahudamon.com',
-    title: 'Bagas Notebook',
-    githubUrl: 'https://github.com/wahudamon/notebook',
+    logoLink: 'https://naufaldi.xyz',
+    title: 'Faldi Wiki',
+    githubUrl: 'https://github.com/naufaldi/notebook',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -21,7 +21,8 @@ const config = {
 		  </li>
 			<li>`,
     links: [
-      { text: 'Blog', link: 'https://wahudamon.com' }
+      { text: 'Blog', link: 'https://kureview.web.id' },
+      { text: 'Portofolio', link: 'https://naufaldi.xyz' }
     ],
     search: {
       enabled: false,
@@ -38,13 +39,13 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-      "note lists",
+      "Wiki Personal",
   },
   siteMetadata: {
     title: 'Notebook',
-    description: "Afwa Bagas Wahuda's personal notebook",
+    description: "Naufaldi Rafif's personal notebook",
     ogImage: null,
-    docsLocation: 'https://github.com/wahudamon/notebook/tree/master/content',
+    docsLocation: 'https://github.com/naufaldi/notebook/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
